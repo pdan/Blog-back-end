@@ -4,7 +4,7 @@ export class ApiController {
 
   @Get('/')
   index(ctx: Context) {
-    return new HttpResponseOK('Hello world!');
+    return new HttpResponseOK('Hello pourya!');
   }
 
 }
